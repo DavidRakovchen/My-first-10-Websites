@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">What Programming Languges do you typically most use?</h1>
+    <p id="description">This short simple Survey Form just asks you a few questions about Coding and Programming, the computer languages you typically most use commonly and how you got into Programming in the first place. Have a read through it and feel free to have a cup of tea.🍰🍵</p>
+    <form id="survey-form">
+      <label id="name-label">Your name:</label>
+      <input type="text" id="name" required placeholder="Enter your Name:"/>
+      <label id="email-label">Your email:</label>
+      <input type="email" id="email" required placeholder="Enter your Email:"/>
+      <label id="number-label">Your age:</label>
+      <input type="number" id="number" min="0" max="120" placeholder="Age:">
+      <label for"dropdown">Choose the computer language you use most:</label>
+      <select id="dropdown">
+        <option value="" selected>Select a language...</option>
+        <option value"html">HTML</option>
+        <option value"css">CSS</option>
+        <option value"javascript">JavaScript</option>
+        <option value"typescript">TypeScript</option>
+        <option value"python">Python</option>
+        <option value"java">Java</option>
+        <option value"c-sharp">C#</option>
+        <option value"c-plus-plus">C++</option>
+        <option value"c">C</option>
+        <option value"php">PHP</option>
+        <option value"ruby">Ruby</option>
+        <option value"go">Go (Golang)</option>
+        <option value"rust">Rust</option>
+        <option value"swift">Swift</option>
+        <option value"kotlin">Kotlin</option>
+        <option value"sql">SQL</option>
+        <option value"other">Other / Not Listed</option>
+      </select>
+      <p>Would you recommend a newbie who's starting from scratch to learn this language? Would you? (think carefully now):</p>
+      <label for="recommended-yes">
+        <input type="radio" id="recommended-yes" name="recommended" value="yes">Absolutely Yes
+      </label>
+      <label for="recommended-no">
+        <input type="radio" id="recommended-no" name="recommended" value="no">Absolutely No
+      </label>
+      <p>What are the other langauges do you Program in? (Check all that apply)</p>
+
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Python"> Python
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="HTML"> HTML
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="CSS"> CSS
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="C"> C
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="C#"> C#
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="JavaScript"> JavaScript
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="TypeScript"> TypeScript
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Java"> Java
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="PHP"> PHP
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Ruby"> Ruby
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Go (Golang)"> Go (Golang)
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Rust"> Rust
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Swift"> Swift
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="Kotlin"> Kotlin
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="SQL"> SQL
+      </label>
+      <label for="computer-languages">
+        <input type="checkbox" id="computer-languages" name="programming language" value="C++"> C++
+      </label>
+      <p>Feel free to give me some feedback on my form?</p>
+      <label for="feedback">Comments:</label>
+      <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Enter your comments here..."></textarea>
+      <button type="submit" id="submit">Submit Survey</button>
+    </form>
+  </body>
+</html>
